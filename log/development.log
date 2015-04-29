@@ -3725,3 +3725,4 @@ Completed 200 OK in 73ms (Views: 72.5ms | ActiveRecord: 0.0ms)
   [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
   [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
