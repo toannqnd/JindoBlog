@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
-
   root                'static_pages#home'
   get 'contact'   =>  'static_pages#contact'
   get 'about'     =>  'static_pages#about'
@@ -10,9 +8,7 @@ Rails.application.routes.draw do
   post 'login'    =>  'sessions#create'
   delete 'logout' =>  'sessions#destroy'
 
-
-  resource :users
-  get '/users/:id', to: 'users#show'
-  # get 'users/:id' => 'users#show'
+  get 'sessions/new'
+  resources :users
 
 end
