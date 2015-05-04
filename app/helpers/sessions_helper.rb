@@ -21,7 +21,14 @@ module SessionsHelper
         @current_user = user
       end
     end
+  end
 
+  def current_user?(user)
+    user == current_user
+  end
+
+  def store_location
+    session[:return_to] = request.url if request.get?
   end
 
   # return true if the user is logged in, false otherwise

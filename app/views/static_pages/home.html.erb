@@ -1,7 +1,7 @@
 <% provide(:title, "Home") %>
 
 <div class="center jumbotron">
-  <h1>Sample App - Home</h1>
+  <h1>Blog App - Home</h1>
 
   <h2>
     This is the home page for the
@@ -10,7 +10,11 @@
   </h2>
 
   <div class="button-signup">
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    <% if logged_in? %>
+    <p>Xin chào, hãy bắt đầu trải nghiệm những tính năng của blog :)</p>
+    <% else %>
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    <% end %>
   </div>
 </div>
 
