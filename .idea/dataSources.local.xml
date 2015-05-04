@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails RailsBlog: development" uuid="741ced30-240c-495a-802a-91a8de9df56b">
+      <user-name>root</user-name>
+      <schema-pattern>TestRuby.*</schema-pattern>
+      <default-schemas>TestRuby.*</default-schemas>
+    </data-source>
+    <data-source name="Rails RailsBlog: test" uuid="2f4bf003-0206-4268-8133-7b5a55da6a5c">
+      <user-name>root</user-name>
+      <schema-pattern>TestRuby.*</schema-pattern>
+      <default-schemas>TestRuby.*</default-schemas>
+    </data-source>
+    <data-source name="Rails RailsBlog: production" uuid="33f4cc3f-3d58-4f74-952e-26c484e092df">
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfebdfe3dfe6dff9dfefdff2dfebdfe7dffadfe6dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
