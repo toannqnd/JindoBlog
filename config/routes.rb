@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'account_activations/edit'
+
   root                'static_pages#home'
   get 'contact'   =>  'static_pages#contact'
   get 'about'     =>  'static_pages#about'
@@ -11,4 +13,7 @@ Rails.application.routes.draw do
   get 'sessions/new'
   resources :users
 
+  # rails generate controller AccountActivations \
+  # edit --no-test-framework
+  resources :account_activations, only: [:edit]
 end
